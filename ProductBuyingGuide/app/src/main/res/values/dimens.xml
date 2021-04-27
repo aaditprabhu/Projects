@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTxtSize">30sp</dimen>
+    <dimen name="margin10dp">10dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="buttonTxtSize">20sp</dimen>
+    <dimen name="margin40dp">40dp</dimen>
+    <dimen name="margin20dp">20dp</dimen>
+    <dimen name="margin15dp">15dp</dimen>
+    <dimen name="margin30dp">30dp</dimen>
+    <dimen name="txtSize24sp">24sp</dimen>
+    <dimen name="txtSize32sp">32sp</dimen>
+    <dimen name="padding10dp">10dp</dimen>
+</resources>

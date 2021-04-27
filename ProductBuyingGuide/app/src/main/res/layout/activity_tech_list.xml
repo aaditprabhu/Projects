@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TechListActivity">
+
+    <TextView
+        android:id="@+id/listTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding10dp"
+        android:text="@string/pictureText"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleTxtSize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/listImageView"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:contentDescription="@string/listImageDescription"
+        android:padding="@dimen/padding10dp"
+        app:srcCompat="@drawable/tech_gadget_icon" />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listButtonTxt"
+        android:textAllCaps="false"
+        android:textSize="@dimen/buttonTxtSize" />
+</LinearLayout>

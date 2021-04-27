@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Product Buying Guide</string>
+    <string name="logoImageDesc">This is the logo / Heading image of the app</string>
+    <string name="appDescriptionText">Welcome to the Product Buying Guide Application. This App will help you buy products by giving you Tips and Tricks you can use for your next purchase. At the end of each section you will find the products that would be best in those categories. Click the Button below to know more.</string>
+    <string name="mainPageButtonTxt">Click Here for Buying Guide</string>
+    <string name="btnKnowMore">Click Here to Know More.</string>
+    <string name="mainPageImgDescription">This is an Image for the Main page</string>
+    <string name="pictureText">Picture Text</string>
+    <string name="listButtonTxt">Click Here to View Editors Choice</string>
+
+    <string name="txtPhone">Phones</string>
+    <string name="txtLaptop">Laptop</string>
+    <string name="txtSmartHome">Smart Home</string>
+    <string name="listImageDescription">List Image Description</string>
+
+    <string-array name="techList">
+        <item>Phone</item>
+        <item>Laptop</item>
+        <item>Smart Home</item>
+    </string-array>
+</resources>
