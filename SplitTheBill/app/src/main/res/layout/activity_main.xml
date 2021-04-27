@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/margin5dp"
+        android:text="@string/txtTitle"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imageDesc"
+        android:paddingTop="@dimen/margin5dp"
+        android:paddingBottom="@dimen/margin5dp"
+        app:srcCompat="@drawable/splitbill" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/margin5dp"
+        android:paddingBottom="@dimen/margin5dp"
+        android:text="@string/btnNextPage"
+        android:textAllCaps="false"
+        android:textSize="@dimen/btnTxtSize" />
+</LinearLayout>

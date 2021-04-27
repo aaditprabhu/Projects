@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".BillCalc">
+
+    <TextView
+        android:id="@+id/title2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin10dp"
+        android:text="@string/txtTitle2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize" />
+
+    <EditText
+        android:id="@+id/membersEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/membersHint"
+        android:inputType="number"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin10dp"
+        android:textSize="@dimen/hintSize" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/amountHint"
+        android:inputType="number"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin10dp"
+        android:textSize="@dimen/hintSize" />
+
+    <TextView
+        android:id="@+id/rateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin10dp"
+        android:text="@string/txtRate"
+        android:textSize="@dimen/btnTxtSize" />
+
+    <Spinner
+        android:id="@+id/rateSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/txtRating"
+        android:paddingBottom="@dimen/margin10dp"
+        android:prompt="@string/txtPrompt"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin10dp"
+        android:textSize="@dimen/hintSize" />
+
+    <TextView
+        android:id="@+id/commentTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin5dp"
+        android:text="@string/txtComment"
+        android:textSize="@dimen/btnTxtSize" />
+
+    <TextView
+        android:id="@+id/commentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/hintSize" />
+
+    <Button
+        android:id="@+id/btnSplit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/margin10dp"
+        android:paddingBottom="@dimen/margin10dp"
+        android:text="@string/btnSplit"
+        android:textAllCaps="false"
+        android:textSize="@dimen/btnTxtSize" />
+
+</LinearLayout>

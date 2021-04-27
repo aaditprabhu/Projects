@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Split The Bill</string>
+    <string name="txtTitle">Split the Bill</string>
+    <string name="imageDesc">Split Bill Logo</string>
+    <string name="btnNextPage">Click Here to Split the Bill</string>
+    <string name="txtTitle2">Calculate Split</string>
+    <string name="membersHint">Number of Group Members.</string>
+    <string name="amountHint">Enter the Bill Amount.</string>
+    <string name="txtRate">Select a Rating:</string>
+    <string name="txtPrompt">Choose a Rating</string>
+    <string name="btnSplit">Calculate the Split</string>
+    <string name="txtComment">Comment:</string>
+
+    <string-array name="txtRating">
+        <item>Excellent Service</item>
+        <item>Average Service</item>
+        <item>Poor Service</item>
+    </string-array>
+</resources>
